@@ -126,11 +126,13 @@ public static void main(String[] args) throws InterruptedException {
 			numberOfOvers.setOpaque(true);
 			
 			JFrame scoreBoard = new JFrame();
+			
+			
 		
 			scoreBoard.setBackground(Color.pink);
 			
 			JPanel ScoreBoardPanel = new JPanel();
-			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(190,190,190,190));
+			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(290,290,290,290));
 			ScoreBoardPanel.setLayout(new GridLayout(0, 1));
 			ScoreBoardPanel.setBackground(Color.BLACK);
 			
@@ -138,10 +140,12 @@ public static void main(String[] args) throws InterruptedException {
 			scoreBoard.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			scoreBoard.setTitle("Our GUI");
 			scoreBoard.pack(); 
-			scoreBoard.setVisible(true);
+			
 			
 			ScoreBoardPanel.add(score);
 			ScoreBoardPanel.add(numberOfOvers);
+			scoreBoard.setSize(1600, 1600);
+			scoreBoard.setVisible(true);
 			Thread.sleep(5000); // waits 5 seconds before it removes the frame and goes to the next ball
 			scoreBoard.dispose();
 		}
@@ -163,7 +167,7 @@ public static void main(String[] args) throws InterruptedException {
 			scoreBoard.setBackground(Color.pink);
 			
 			JPanel ScoreBoardPanel = new JPanel();
-			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(190,190,190,190));
+			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(90,90,90,90));
 			ScoreBoardPanel.setLayout(new GridLayout(0, 1));
 			ScoreBoardPanel.setBackground(Color.BLACK);
 			
@@ -172,6 +176,7 @@ public static void main(String[] args) throws InterruptedException {
 			scoreBoard.setTitle("Our GUI");
 			scoreBoard.pack(); 
 			scoreBoard.setVisible(true);
+			
 			
 			ScoreBoardPanel.add(score);
 			ScoreBoardPanel.add(numberOfOvers);
@@ -234,7 +239,7 @@ public static void main(String[] args) throws InterruptedException {
 			
 			JFrame scoreBoard = new JFrame();
 			JPanel ScoreBoardPanel = new JPanel();
-			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(190,190,190,190));
+			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(90,90,90,90));
 			ScoreBoardPanel.setLayout(new GridLayout(0, 1));
 			ScoreBoardPanel.setBackground(Color.BLACK);
 			
@@ -290,7 +295,7 @@ public static void main(String[] args) throws InterruptedException {
 			
 			JFrame scoreBoard = new JFrame();
 			JPanel ScoreBoardPanel = new JPanel();
-			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(190,190,190,190));
+			ScoreBoardPanel.setBorder(BorderFactory.createEmptyBorder(90,90,90,90));
 			ScoreBoardPanel.setLayout(new GridLayout(0, 1));
 			ScoreBoardPanel.setBackground(Color.BLACK);
 			
